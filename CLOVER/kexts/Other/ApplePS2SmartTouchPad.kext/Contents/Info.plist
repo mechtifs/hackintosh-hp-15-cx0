@@ -620,7 +620,7 @@
 				<key>Buttons</key>
 				<dict>
 					<key>2FingersClickAction</key>
-					<integer>3</integer>
+					<integer>0</integer>
 					<key>ClickpadVirtualButtons</key>
 					<true/>
 					<key>ClickpadVirtualButtonsArea</key>
@@ -645,7 +645,7 @@
 					<key>FLiftDragReleaseTimeOut</key>
 					<integer>300</integer>
 					<key>FingerPressDrag</key>
-					<true/>
+					<false/>
 					<key>FingerPressDragPressure</key>
 					<dict>
 						<key>ELANv2</key>
@@ -710,7 +710,7 @@
 				<key>Others</key>
 				<dict>
 					<key>4FingersPinchAction</key>
-					<integer>3</integer>
+					<integer>0</integer>
 					<key>5FingersPinchAction</key>
 					<integer>3</integer>
 					<key>CircularRotate</key>
@@ -932,7 +932,7 @@
 						<key>Auto2FingScroll</key>
 						<false/>
 						<key>Continuous2FingScroll</key>
-						<true/>
+						<false/>
 						<key>Inertial2FingScroll</key>
 						<false/>
 						<key>ScrollSmoothSamples</key>
@@ -978,7 +978,7 @@
 						<key>EdgeScrollAccelMode</key>
 						<integer>0</integer>
 						<key>EdgeScrolling</key>
-						<true/>
+						<false/>
 						<key>EdgeVScrollAdaptArea</key>
 						<integer>4</integer>
 						<key>EdgeVScrollArea</key>
@@ -1050,7 +1050,7 @@
 				<key>Swiping</key>
 				<dict>
 					<key>3FingerSwipeDownAction</key>
-					<integer>8</integer>
+					<integer>4</integer>
 					<key>3FingerSwipeLeftAction</key>
 					<integer>7</integer>
 					<key>3FingerSwipeRightAction</key>
@@ -1060,15 +1060,15 @@
 					<key>3FingerSwipes</key>
 					<true/>
 					<key>4FingerSwipeDownAction</key>
-					<integer>27</integer>
+					<integer>4</integer>
 					<key>4FingerSwipeLeftAction</key>
-					<integer>28</integer>
+					<integer>7</integer>
 					<key>4FingerSwipeRightAction</key>
-					<integer>29</integer>
+					<integer>6</integer>
 					<key>4FingerSwipeUpAction</key>
-					<integer>30</integer>
+					<integer>4</integer>
 					<key>4FingerSwipes</key>
-					<false/>
+					<true/>
 					<key>EdgeSwipeBottom</key>
 					<integer>0</integer>
 					<key>EdgeSwipeDeltaX</key>
@@ -1124,13 +1124,13 @@
 					<key>1FingerTapAction</key>
 					<integer>35</integer>
 					<key>2FingersTapAction</key>
-					<integer>21</integer>
+					<integer>0</integer>
 					<key>3FingersTapAction</key>
-					<integer>22</integer>
+					<integer>0</integer>
 					<key>4FingersTapAction</key>
-					<integer>4</integer>
+					<integer>0</integer>
 					<key>5FingersTapAction</key>
-					<integer>5</integer>
+					<integer>0</integer>
 					<key>CornerTapAreaHeight</key>
 					<integer>10</integer>
 					<key>CornerTapAreaLength</key>
