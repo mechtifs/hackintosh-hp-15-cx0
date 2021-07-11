@@ -1,4 +1,5 @@
 # HP Pavillion Gaming Laptop 15-cx0xxx (aka. 光影精靈四代) Hackintosh Clover EFI
+## DEPRECATED!!
 [中文](https://github.com/mechtifs/hackintosh-hp-15-cx0/blob/master/README_zh.md)  
 Tested on 15-cx0074tx  
 Confirmed working on macOS Catalina 10.15.5
