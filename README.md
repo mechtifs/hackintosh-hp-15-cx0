@@ -1,22 +1,21 @@
-# HP Pavillion Gaming Laptop 15-cx0xxx (aka. 光影精靈四代) Hackintosh Clover EFI
-## DEPRECATED!!
-[中文](https://github.com/mechtifs/hackintosh-hp-15-cx0/blob/master/README_zh.md)  
+# HP Pavillion Gaming Laptop 15-cx0xxx (aka. 光影精靈四代) Hackintosh OpenCore EFI
 Tested on 15-cx0074tx  
-Confirmed working on macOS Catalina 10.15.5
-### Confirmed Working
+Confirmed working on macOS Big Sur 11.4
+### Working
 - Intel UHD 630 Graphics Card
 - Elan Touchpad
 - Realtek ALC295 Speakers
+- Headphone Jack
+- Realtek Ethernet Adapter
+- USB 3.1
+- Intel AC9560 Wireless Card
+- Hibernation
+### Not Working (yet)
 - Web Camera
 - Bluetooth
-- Headphone Jack
-- LAN
-- USB
-- Android USB Tethering
-- Sleeping
-### Known Issues
-- Nvidia/AMD card won't work.
-- Wifi (**Experimental**: To make wifi working, please refer to [zxystd/itlwm](https://github.com/zxystd/itlwm/blob/master/.github/README_en.md)).
-- Touchpad is buggy, no way to fix that due to the old and closed source driver.
-- No sound after sleeping without CodecCommander.kext, which should be fixed by AppleALC.kext.
-- Do **NOT** move the brightness slider bar to the far left, or you'll regret.
+- Nvidia Graphic Card (will never work)
+### Bugs
+- No sound after hibernation
+### Notes
+- Since I've purchased a new laptop, this repo will eventually be deprecated at some point
+- PRs are welcomed!
