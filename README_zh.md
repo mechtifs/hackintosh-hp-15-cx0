@@ -1,4 +1,5 @@
-# 适用于 macOS Catalina 及 Big Sur 的惠普光影精灵四代（等同于 15-cx0xxx）Hackintosh OpenCore EFI
+# 已弃用！
+# 适用于 macOS Catalina 及 Big Sur 的惠普光影精灵四代（即 15-cx0xxx）Hackintosh OpenCore EFI
 [English](./README.md)  
 测试于 15-cx0074tx  
 对于 Catalina，请将 OC/Kexts/AirportItlwm.kext 替换为[这个](https://github.com/OpenIntelWireless/itlwm/releases/download/v1.3.0/AirportItlwm_v1.3.0_stable_Catalina.kext.zip)
@@ -8,7 +9,7 @@
 - 触控板
 - 音效
 - 以太网
-- USB 端口哦
+- USB 端口
 - Wi-Fi
 - 蓝牙
 - 摄像头
